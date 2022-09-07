@@ -1,0 +1,68 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Apr 12 23:04:18 2019
+[*]
+[dumpfile] "/home/paul/work/fpga/icestorm/fpga_workshop/13-temp-ds18b20/simulate_tb.vcd"
+[dumpfile_mtime] "Fri Apr 12 23:03:47 2019"
+[dumpfile_size] 5067469
+[savefile] "/home/paul/work/fpga/icestorm/fpga_workshop/13-temp-ds18b20/default.gtkw"
+[timestart] 0
+[size] 1572 643
+[pos] 2207 0
+*-19.115993 6230 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testbench.
+[treeopen] testbench.uut.
+[treeopen] testbench.uut.my_temp.
+[sst_width] 202
+[signals_width] 223
+[sst_expanded] 1
+[sst_vpaned_height] 163
+@28
+testbench.uut.my_temp.i_clk
+testbench.uut.my_temp.i_rst
+@800200
+-RGB LEDS
+@28
+[color] 1
+testbench.uut.my_temp.o_led_r
+[color] 4
+testbench.uut.my_temp.o_led_g
+[color] 5
+testbench.uut.my_temp.o_led_b
+@1000200
+-RGB LEDS
+@800200
+-One Wire
+@28
+testbench.uut.my_temp.o_owr
+testbench.uut.my_temp.i_owr
+@1000200
+-One Wire
+@800200
+-STATUS
+@28
+testbench.uut.my_temp.w_detect
+testbench.uut.my_temp.w_busy
+testbench.uut.my_temp.w_irq
+@1000200
+-STATUS
+@800200
+-STATE MACHINE
+@25
+testbench.uut.my_temp.r_state[7:0]
+@1000200
+-STATE MACHINE
+@800200
+-DS18B20
+@22
+testbench.uut.my_temp.my_ds18b20.r__state[7:0]
+@28
+testbench.uut.my_temp.my_ds18b20.r_detect
+@22
+testbench.uut.my_temp.r_state[7:0]
+@1000200
+-DS18B20
+@22
+testbench.uut.my_temp.my_ds18b20.r_state[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
